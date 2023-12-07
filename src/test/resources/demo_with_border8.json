@@ -1,0 +1,386 @@
+[{
+  "name": "Sheet1",
+  "index": 0,
+  "status": 1,
+  "order": 0,
+  "hide": 0,
+  "row": 100,
+  "column": 26,
+  "defaultRowHeight": 28,
+  "defaultColWidth": 100,
+  "celldata": [],
+  "jfgird_select_save": [],
+  "luckysheet_select_save": [{
+    "left": 404,
+    "width": 228,
+    "top": 29,
+    "height": 28,
+    "left_move": 404,
+    "width_move": 228,
+    "top_move": 29,
+    "height_move": 28,
+    "row": [1, 1],
+    "column": [4, 4],
+    "row_focus": 1,
+    "column_focus": 4
+  }],
+  "data": [
+    [{
+      "m": "日期时间24H",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "日期时间24H"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "数字",
+      "m": "数字"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "m": "百分比",
+      "v": "百分比"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "科学计数",
+      "m": "科学计数"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "会计",
+      "m": "会计"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "万元",
+      "m": "万元"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "货币",
+      "m": "货币"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "万元小数点后2位",
+      "m": "万元小数点后2位"
+    }, {
+      "m": "日期",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "日期"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "m": "时间",
+      "v": "时间"
+    }, {
+      "m": "时间24h",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "时间24h"
+    }, {
+      "m": "日期时间",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "日期时间"
+    }, {
+      "m": "日期时间24h",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "日期时间24h"
+    }, {
+      "m": "自定义日期",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "自定义日期"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "数字格式",
+      "m": "数字格式"
+    }, {
+      "m": "更多货币格式",
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "v": "更多货币格式"
+    }, {
+      "ct": {
+        "fa": "General",
+        "t": "g"
+      },
+      "m": "自定义时间",
+      "v": "自定义时间"
+    }, null, null, null, null, null, null, null, null, null],
+    [{
+      "m": "2023-11-22 20:59",
+      "ct": {
+        "fa": "yyyy-MM-dd hh:mm",
+        "t": "d"
+      },
+      "v": 45252.87498842592
+    }, {
+      "ct": {
+        "fa": "##0.00",
+        "t": "n"
+      },
+      "m": "22.23",
+      "v": 22.2322
+    }, {
+      "ct": {
+        "fa": "#0.00%",
+        "t": "n"
+      },
+      "v": 11,
+      "m": "1100.00%"
+    }, {
+      "ct": {
+        "fa": "0.00E+00",
+        "t": "n"
+      },
+      "v": 1e+21,
+      "m": "1.00E+21"
+    }, {
+      "v": "232434234324",
+      "ct": {
+        "fa": "¥(0.00)",
+        "t": "n"
+      },
+      "m": "¥(232434234324.00)"
+    }, {
+      "v": 23423424234234230,
+      "ct": {
+        "fa": "w",
+        "t": "n"
+      },
+      "m": "234234242亿-2342342420000万0002e-17"
+    }, {
+      "v": 23424234,
+      "ct": {
+        "fa": "¥0.00",
+        "t": "n"
+      },
+      "m": "¥23424234.00"
+    }, {
+      "v": 2342342342,
+      "ct": {
+        "fa": "w0.00",
+        "t": "n"
+      },
+      "m": "23亿4234万2342.00"
+    }, {
+      "ct": {
+        "fa": "yyyy-MM-dd",
+        "t": "d"
+      },
+      "v": 45280,
+      "m": "2023-12-20"
+    }, {
+      "ct": {
+        "fa": "hh:mm AM/PM",
+        "t": "d"
+      },
+      "v": 45265.51388888889,
+      "m": "12:20 PM"
+    }, {
+      "ct": {
+        "fa": "hh:mm",
+        "t": "d"
+      },
+      "v": 45265.63888888889,
+      "m": "15:20"
+    }, {
+      "ct": {
+        "fa": "yyyy-MM-dd hh:mm AM/PM",
+        "t": "d"
+      },
+      "v": 45265.010416666664,
+      "m": "2023-12-05 12:15 AM"
+    }, {
+      "ct": {
+        "fa": "yyyy-MM-dd hh:mm",
+        "t": "d"
+      },
+      "v": 45273.14236111111,
+      "m": "2023-12-13 03:25"
+    }, {
+      "ct": {
+        "fa": "yyyy/MM/dd",
+        "t": "d"
+      },
+      "v": 45266,
+      "m": "2023/12/06"
+    }, {
+      "ct": {
+        "fa": "#,##0.00_);(#,##0.00)",
+        "t": "n"
+      },
+      "v": 12312312312,
+      "m": "12,312,312,312.00 "
+    }, {
+      "ct": {
+        "fa": "\"￡\" 0.00",
+        "t": "n"
+      },
+      "v": 23423423423,
+      "m": "￡ 23423423423.00"
+    }, {
+      "ct": {
+        "fa": "h:mm:ss",
+        "t": "d"
+      },
+      "v": 45265.507060185184,
+      "m": "12:10:10"
+    }, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+  ],
+  "load": "1",
+  "config": {
+    "columnlen": {
+      "4": 228,
+      "5": 234.07423400878906
+    },
+    "customWidth": {
+      "4": 1
+    }
+  },
+  "visibledatarow": [29, 58, 87, 116, 145, 174, 203, 232, 261, 290, 319, 348, 377, 406, 435, 464, 493, 522, 551, 580, 609, 638, 667, 696, 725, 754, 783, 812, 841, 870, 899, 928, 957, 986, 1015, 1044, 1073, 1102, 1131, 1160, 1189, 1218, 1247, 1276, 1305, 1334, 1363, 1392, 1421, 1450, 1479, 1508, 1537, 1566, 1595, 1624, 1653, 1682, 1711, 1740, 1769, 1798, 1827, 1856, 1885, 1914, 1943, 1972, 2001, 2030, 2059, 2088, 2117, 2146, 2175, 2204, 2233, 2262, 2291, 2320, 2349, 2378, 2407, 2436, 2465, 2494, 2523, 2552, 2581, 2610, 2639, 2668, 2697, 2726, 2755, 2784, 2813, 2842, 2871, 2900],
+  "visibledatacolumn": [101, 202, 303, 404, 633, 868, 969, 1070, 1171, 1272, 1373, 1474, 1575, 1676, 1777, 1878, 1979, 2080, 2181, 2282, 2383, 2484, 2585, 2686, 2787, 2888],
+  "ch_width": 3008,
+  "rh_height": 2980,
+  "luckysheet_selection_range": [],
+  "zoomRatio": 1,
+  "scrollLeft": 240.5703125,
+  "scrollTop": 0,
+  "images": {}
+}]
