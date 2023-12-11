@@ -9,6 +9,13 @@
     <description>
         luckysheet data export util with java poi
     </description>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/enduri/luckysheet-export/blob/main/LICENSE.txt</url>
+        </license>
+
+    </licenses>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
