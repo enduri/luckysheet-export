@@ -6,6 +6,9 @@
     <version>1.0.0</version>
     <name>luckysheet java export util</name>
     <url>https://github.com/enduri/luckysheet-export</url>
+    <description>
+        luckysheet data export util with java poi
+    </description>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -160,6 +163,22 @@
                         <goals>
                             <goal>jar-no-fork</goal>
                         </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
