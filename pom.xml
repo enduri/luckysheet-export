@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.enduri</groupId>
     <artifactId>luckysheet-export</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>luckysheet java export util</name>
     <url>https://github.com/enduri/luckysheet-export</url>
     <description>
@@ -43,6 +43,7 @@
         <jackson.version>2.14.2</jackson.version>
         <lb.version>1.0.7</lb.version>
         <gpg.keyname>0x065E390E</gpg.keyname>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
@@ -158,6 +159,11 @@
                     <artifactId>nexus-staging-maven-plugin</artifactId>
                     <version>1.6.7</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>2.10.4</version>
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
@@ -195,7 +201,19 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9.1</version>
+                <version>2.10.4</version>
+                <configuration>
+                    <outputDirectory>${project.build.directory}/javadoc</outputDirectory>
+                    <stylesheetfile>javadoc/ping-javadoc-stylesheet.css</stylesheetfile>
+<!--                    <linksource>${include.source}</linksource>-->
+                    <show>protected</show>
+                    <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+                    <source>8</source>
+                    <!-- jdk1.8要加上，1.7要去掉，否则会报错 -->
+                    <additionalJOptions>
+                        <additionalJOption>-Xdoclint:none</additionalJOption>
+                    </additionalJOptions>
+                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>

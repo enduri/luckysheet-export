@@ -260,7 +260,7 @@ public class ExcelUtils {
                 Integer cropOffsetLeft = imageObject.getCrop().getOffsetLeft();
 
                 Integer cropOffsetTop = imageObject.getCrop().getOffsetTop();
-                ;
+
 
                 width = Optional.ofNullable(cropWidth).orElse(width);
                 height = Optional.ofNullable(cropHeight).orElse(height);
@@ -482,22 +482,22 @@ public class ExcelUtils {
 
     static void setCellValue(List<?> celldataObjectList, XSSFSheet
             sheet, XSSFWorkbook workbook, List<List<LuckySheetExcelJsonData.DataDTO>> dataObjectList, Map<String, XSSFCellStyle> rowColCell) {
-        //设置字体大小和颜色
-        Map<Integer, String> fontMap = new HashMap<>();
-        fontMap.put(-1, "Arial");
-        fontMap.put(0, "Times New Roman");
-        fontMap.put(1, "Arial");
-        fontMap.put(2, "Tahoma");
-        fontMap.put(3, "Verdana");
-        fontMap.put(4, "微软雅黑");
-        fontMap.put(5, "宋体");
-        fontMap.put(6, "黑体");
-        fontMap.put(7, "楷体");
-        fontMap.put(8, "仿宋");
-        fontMap.put(9, "新宋体");
-        fontMap.put(10, "华文新魏");
-        fontMap.put(11, "华文行楷");
-        fontMap.put(12, "华文隶书");
+//        //设置字体大小和颜色
+//        Map<Integer, String> fontMap = new HashMap<>();
+//        fontMap.put(-1, "Arial");
+//        fontMap.put(0, "Times New Roman");
+//        fontMap.put(1, "Arial");
+//        fontMap.put(2, "Tahoma");
+//        fontMap.put(3, "Verdana");
+//        fontMap.put(4, "微软雅黑");
+//        fontMap.put(5, "宋体");
+//        fontMap.put(6, "黑体");
+//        fontMap.put(7, "楷体");
+//        fontMap.put(8, "仿宋");
+//        fontMap.put(9, "新宋体");
+//        fontMap.put(10, "华文新魏");
+//        fontMap.put(11, "华文行楷");
+//        fontMap.put(12, "华文隶书");
 
         for (int rowIndex = 0; rowIndex < dataObjectList.size(); rowIndex++) {
             var jsonRow = dataObjectList.get(rowIndex);
@@ -514,12 +514,12 @@ public class ExcelUtils {
                 var bg = cellJsonObj.getBg();
                 var row = sheet.getRow(rowIndex);
                 if (row == null) {
-                    continue;
+                    row = sheet.createRow(rowIndex);
                 }
                 XSSFCell xssfCell = sheet.getRow(rowIndex).getCell(columnIndex);
 
                 if (xssfCell == null) {
-                    continue;
+                    xssfCell = row.createCell(columnIndex);
                 }
                 //填充值
                 xssfCell.setCellValue(v);

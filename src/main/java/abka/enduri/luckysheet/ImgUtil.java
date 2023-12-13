@@ -47,7 +47,7 @@ public class ImgUtil {
      * 将网络链接图片或者本地图片文件转换成Base64编码字符串
      *
      * @param imgSrc 网络图片Url/本地图片目录路径
-     * @return
+     * @return base64 src
      */
     public static String tryTransImgToBase64WithDataPrefix(String imgSrc) {
 
@@ -162,8 +162,8 @@ public class ImgUtil {
     /**
      * byte数组转换成16进制字符串*
      *
-     * @param src
-     * @return
+     * @param src pic byte
+     * @return base64
      */
     public static String bytesToHexString(byte[] src) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -184,8 +184,8 @@ public class ImgUtil {
     /**
      * 判断图片类型
      *
-     * @param bytes
-     * @return
+     * @param bytes pic bytes
+     * @return pic type
      */
     public static String getPicType(byte[] bytes) {
         if (ObjectUtils.isEmpty(bytes) || bytes.length < 4) {
