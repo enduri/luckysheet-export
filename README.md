@@ -17,7 +17,17 @@
 * 未作过多兼容测试，可能会有一些bug
 
 # 使用方法
+maven 引用
+```xml
+      <dependency>
+            <groupId>io.github.enduri</groupId>
+            <artifactId>luckysheet-export</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 ```
+```
+import abka.enduri.luckysheet.ExcelUtils;
+
 String exportDir = "export_dir";
 String exportFileName = "/demo_with_border.xlsx";
 String excelData = loadFileData("demo_with_border.json");
