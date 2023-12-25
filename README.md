@@ -22,7 +22,7 @@ maven 引用
       <dependency>
             <groupId>io.github.enduri</groupId>
             <artifactId>luckysheet-export</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
 ```
 ```
